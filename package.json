@@ -1,0 +1,30 @@
+{
+  "name": "webpack-cus",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "webx": "bin/webx"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evinma/webpack-cus.git"
+  },
+  "homepage": "https://github.com/evinma/webpack-cus",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.5.5",
+    "@babel/traverse": "^7.5.5",
+    "@babel/types": "^7.5.5",
+    "babylon": "^6.18.0",
+    "ejs": "^2.6.2",
+    "tapable": "^1.1.3"
+  }
+}
